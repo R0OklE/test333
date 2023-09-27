@@ -1,0 +1,245 @@
+.container{
+    width: 100%;
+    background-color: pink;
+}
+
+.bg{
+    width: 100%;
+    height: 180px;
+}
+
+.grid{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.title{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+    height: 70px;
+    width: 420px;
+}
+
+.dinosaur{
+    position: absolute;
+    left: 10%;
+    top: 40px;
+    height: 150px;
+    width: 150px;
+}
+
+.game{
+    position: absolute;
+    left: 63%;
+    top: 15%;
+    height: 60px;
+    width: 137px;
+}
+
+.big{
+    position: absolute;
+    left: 83%;
+    top: 70px;
+    height: 120px;
+    width: 60px;
+}
+
+.small{
+    position: absolute;
+    left: 90%;
+    top: 130px;
+    height: 60px;
+    width: 30px;
+}
+
+.bird{
+    position: absolute;
+    left: 65%;
+    top: 3%;
+    height: 63px;
+    width: 80px;
+}
+.bottom{
+    height: 600px;
+    width: 1503px;
+    position: absolute;
+    top: 188px;
+}
+
+.bottom .bk{
+    width: 100%;
+    position: absolute;
+    top: -5px;
+}
+
+.bottom .play{
+    height: 94px;
+    width: 180px;
+    position: absolute;
+    top: 290px;
+    left: 45%;
+}
+
+.bottom .map{
+    height: 524px;
+    width: 750px;
+    position: absolute;
+    top: 70px;
+    left: 25%;
+}
+
+.dropdown-button .difficulty{
+    position: absolute;
+    top: 150px;
+    left: 41%;
+}
+
+.bottom .start{
+    position: absolute;
+    top: 270px;
+    left: 41%;
+}
+
+.bottom .exit{
+    position: absolute;
+    top: 390px;
+    left: 41%;
+}
+
+.bottom .setting{
+    position: absolute;
+    top: 470px;
+    left: 65%;
+}
+
+.bottom .music{
+    position: absolute;
+    top: 150px;
+    left: 41%;
+}
+
+.bottom .image{
+    position: absolute;
+    top: 270px;
+    left: 41%;
+}
+
+.dropdown .board {
+    display: none; /* 初始状态下隐藏选项 */
+    position: absolute;
+    top: 110px;
+    left: 41%;
+    z-index: 1;
+}
+
+.dropdown .easy {
+    display: none; /* 初始状态下隐藏选项 */
+    position: absolute;
+    top: 150px;
+    left: 42.5%;
+    z-index: 2;
+}
+
+.dropdown .hard {
+    display: none; /* 初始状态下隐藏选项 */
+    position: absolute;
+    top: 270px;
+    left: 42.5%;
+    z-index: 2;
+}
+
+.dropdown-content img{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .board {
+    display: block; /* 鼠标经过按钮时显示选项 */
+}
+
+.dropdown:hover .easy {
+    display: block; /* 鼠标经过按钮时显示选项 */
+}
+
+.dropdown:hover .hard {
+    display: block; /* 鼠标经过按钮时显示选项 */
+}
+
+.bottom .easyer{
+    position: absolute;
+    top: 150px;
+    left: 41%;
+}
+
+.bottom .harder{
+    position: absolute;
+    top: 150px;
+    left: 41%;
+}
+
+.bottom .mmap{
+    height: 620px;
+    width: 620px;
+    position: absolute;
+    top: 20px;
+    left: 29.5%;
+}
+
+.bottom .ArrowL{
+    position: absolute;
+    top: 55px;
+    left: 62%;
+}
+
+.bottom .ArrowR{
+    position: absolute;
+    top: 55px;
+    left: 66%;
+}
+
+.bottom .number{
+    position: absolute;
+    top: 45px;
+    left: 64.3%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #307DF6;
+}
+
+.bottom .submit{
+    position: absolute;
+    top: 550px;
+    left: 74.3%;
+}
+
+.bottom .aud{
+    position: absolute;
+    left: 6.5%;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.bottom .Menu{
+    position: absolute;
+    left: 0%;
+    top: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.bottom .clear{
+    position: absolute;
+    top: 450px;
+    left: 74.3%;
+}
+
+.bottom .enter{
+    position: absolute;
+    top: 450px;
+    left: 74.3%;
+}
