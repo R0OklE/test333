@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./beautify.css">
+    <link rel="stylesheet" href="./sudoku.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./images/background.png" alt="" class="bg">
+        <img src="./images/grid.png" alt="" class="grid">
+        <img src="./images/big.png" alt="" class="big">
+        <img src="./images/small.png" alt="" class="small">
+        <img src="./images/bird.png" alt="" class="bird">
+        <img src="./images/game.png" alt="" class="game">
+        <img src="./images/sudoku.png" alt="" class="title">
+        <img src="./images/dinosaur.png" alt="" class="dinosaur">
+    </div>
+    <div class="bottom">
+        <img src="./images/Magic Cliffs (author_ ansimuz).png" alt="" class="bk">
+        <img src="./images/mmap.png" alt="" class="mmap">
+        <span class="number">6</span>
+        <button type="button" onclick="window.location.href='./game102_5.html'">
+            <img src="./images/ArrowL.png" alt="" class="ArrowL">
+        </button>
+        <button type="button" onclick="window.location.href='./game102_7.html'">
+            <img src="./images/ArrowR.png" alt="" class="ArrowR">
+        </button>                
+        <button type="button" onclick="window.location.href='./submit102.html'">
+            <img src="./images/submit.png" alt="" class="submit">
+        </button>
+
+        <button onclick="toggleAudio()">
+            <img src="./images/music_icon.png" alt="" class="aud">
+        </button>
+        <audio id="myAudio" loop>
+        <source src="./audio/DST_Theme_Loop.wav" type="audio/wav">
+        </audio>
+
+        <button type="button" onclick="window.location.href='./menu.html'">
+            <img src="./images/Menu.png" alt="" class="Menu">
+        </button>
+
+        <button type="button" onclick="window.location.href='./game102_6.html'" id="start-button">
+            <img src="./images/clear.png" alt="" class="clear">
+        </button>
+    </div>
+    <div id="sudoku-container">
+        <div class="sudoku-board"></div>
+    </div>
+    <script src="./game102_6.js"></script>
+    <script src="./audio.js"></script>
+</body>
+</html>
